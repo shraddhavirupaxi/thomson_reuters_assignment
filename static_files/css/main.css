@@ -124,17 +124,6 @@ h4 {
     color: #a99c92;
 }
 
-#stylers-about .stylers-text p span.firstcharacter {
-    float: left;
-    line-height: 60px;
-    padding-top: 4px;
-    padding-right: 10px;
-    padding-left: 3px;
-    font-style: italic;
-    top: -20px;
-    position: relative;
-    color: #fff;
-}
 
 
 #contact-box {
