@@ -1,0 +1,203 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Source Sans Pro';
+}
+
+h1 {
+    font-size: 22px
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+#header {
+    padding: 4em 1em 5em 1em;
+    background: #FFFFFF;
+    text-align: left;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    margin-left: 15%;
+}
+
+.header-phone {
+    width: 40%;
+    float: right;
+}
+
+#menu .uniform {
+	margin-bottom: 0em;
+    padding: 0;
+    background-color: #0b224b;
+    color: #0060B6;
+    text-decoration: none;
+}
+
+#menu .list {
+    float: left;
+    list-style: none;
+}
+
+#menu .hyperlinks {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #111;
+}
+
+#form-style {
+	margin-right: 30%;
+}
+
+#stylers-about {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    background: #0b224b;
+    width: 100%;
+    height: 40em;
+}
+
+#stylers-about .stylers-2col {
+    width: 50%;
+}
+
+#stylers-about .stylers-text {
+
+    text-align: left;
+}
+
+#stylers-about .stylers-text .btn {
+    color: #fff;
+}
+
+#stylers-about .stylers-text .heading {
+    margin-bottom: 30px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#stylers-about .stylers-text .heading:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    left: 50%;
+    background: #fb6e14;
+    margin-left: -20px;
+}
+
+#stylers-about .stylers-text p {
+    line-height: 2;
+    color: #a99c92;
+}
+
+#stylers-about .stylers-text p span.firstcharacter {
+    float: left;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-left: 3px;
+    font-style: italic;
+    top: -20px;
+    position: relative;
+    color: #fff;
+}
+
+
+#contact-box {
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 2em 0 0.7em 0;
+    ;
+    background: #0b224b;
+    text-align: center;
+}
+
+#footer a {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#footer a:hover {
+    color: #fff;
+}
+
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+
+
+.form-style-1 {
+    margin:10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+    margin-left: 40%;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
